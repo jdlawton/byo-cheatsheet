@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Borders Cheatsheet</title>
+</head>
+<body>
+    <h1>CSS Border Properties</h1>
+    <section>
+        <h2>Border Styles</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Style</th>
+                    <th>CSS Property</th>
+                    <th>Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dotted</td>
+                    <td>border-style: dotted;</td>
+                    <td>A dotted border</td>
+                </tr>
+                <tr>
+                    <td>Dashed</td>
+                    <td>border-style: dashed;</td>
+                    <td>A dashed border</td>
+                </tr>
+                <tr>
+                    <td>Solid</td>
+                    <td>border-style: solid;</td>
+                    <td>A solid border</td>
+                </tr>
+                <tr>
+                    <td>Double</td>
+                    <td>border-style: double;</td>
+                    <td>A double border</td>
+                </tr>
+                <tr>
+                    <td>Groove</td>
+                    <td>border-style: groove;</td>
+                    <td>A groove border</td>
+                </tr>
+                <tr>
+                    <td>Ridge</td>
+                    <td>border-style: ridge;</td>
+                    <td>A ridge border</td>
+                </tr>
+                <tr>
+                    <td>Inset</td>
+                    <td>border-style: inset;</td>
+                    <td>A inset border</td>
+                </tr>
+                <tr>
+                    <td>Outset</td>
+                    <td>border-style: outset;</td>
+                    <td>A outset border</td>
+                </tr>
+                <tr>
+                    <td>None</td>
+                    <td>border-style: none;</td>
+                    <td>A none border</td>
+                </tr>
+                <tr>
+                    <td>Hidden</td>
+                    <td>border-style: hidden;</td>
+                    <td>A hidden border</td>
+                </tr>
+                <tr>
+                    <td>Mixed</td>
+                    <td>border-style: dotted dashed solid double;</td>
+                    <td>A mixed border</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Border Width</h2>
+        <p>Border width can be set as a specific size (in px, pt, cm, em, etc) or by using one of the three pre-defined values: thin, medium, or thick.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>CSS Code</th>
+                    <th>Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>border-style: solid;<br>border-width: 5px;</td>
+                    <td>5px border-width</td>
+                </tr>
+                <tr>
+                    <td>border-style: solid;<br>border-width: medium;</td>
+                    <td>medium border-width</td>
+                </tr>
+                <tr>
+                    <td>border-style: dotted;<br>border-width: 2px;</td>
+                    <td>2px border-width</td>
+                </tr>
+                <tr>
+                    <td>border-style: dotted;<br>border-width: thick;</td>
+                    <td>thick border-width</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Border Color</h2>
+        <p>The color can be set by:</p>
+        <ul>
+            <li>name - specify a color name, like "red"</li>
+            <li>HEX - specify a HEX value, like "#ff0000"</li>
+            <li>RGB - specify a RGB value, like "rgb(255,0,0)"</li>
+            <li>HSL - specify a HSL value, like "hsl(0, 100%, 50%)"</li>
+            <li>transparent</li>
+        </ul>
+        <table>
+            <thead>
+                <tr>
+                    <th>CSS Code</th>
+                    <th>Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>border-style: solid;<br>border-color: red;</td>
+                    <td>Red border</td>
+                </tr>
+                <tr>
+                    <td>border-style: solid;<br>border-color: green;</td>
+                    <td>Green border</td>
+                </tr>
+                <tr>
+                    <td>border-style: dotted;<br>border-color: blue;</td>
+                    <td>Blue border</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Border Sides</h2>
+        <p>There are also properties for specifying each of the borders (top, right, bottom, and left)</p>
+    </section>
+
+    <section>
+        <h2>Rounded Borders</h2>
+        <p>The border-radius property is used to add rounded borders to an element</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>CSS Code</th>
+                    <th>Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>border-style: solid;</td>
+                    <td>Normal border</td>
+                </tr>
+                <tr>
+                    <td>border-style: solid;<br>border-radius: 5px;</td>
+                    <td>Rounded Border</td>
+                </tr>
+                <tr>
+                    <td>border-style: solid;<br>border-radius: 10px;</td>
+                    <td>Rounder Border</td>
+                </tr>
+                <tr>
+                    <td>border-style: solid;<br>border-radius: 15px;</td>
+                    <td>Roundest Border</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Border Shorthand</h2>
+        <p>The border property is a shorthand property for the following individual border properties:</p>
+        <ul>
+            <li>border-width</li>
+            <li>border-style (required)</li>
+            <li>border-color</li>
+        </ul>
+        <table>
+            <thead>
+                <tr>
+                    <th>CSS Code</th>
+                    <th>Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>border: 6px solid red</td>
+                    <td>Some text</td>
+                </tr>
+                <tr>
+                    <td>border-left: 6px solid red</td>
+                    <td>Some text</td>
+                </tr>
+                <tr>
+                    <td>border-bottom: 6px solid red</td>
+                    <td>Some text</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>
