@@ -1,0 +1,150 @@
+body {
+    text-align: center;
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    background-color: lemonchiffon
+}
+
+ul {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+thead {
+    background-color: lightgreen;
+}
+
+td {
+    width: 30%;
+    border: 1px solid gray;
+}
+
+span {
+    margin: 3px;
+}
+
+.code {
+    font-family: monospace
+}
+
+.dotted {
+    border-style: dotted;
+    border-width: 3px;
+}
+
+.dashed {
+    border-style: dashed;
+    border-width: 3px;
+}
+
+.solid {
+    border-style: solid;
+    border-width: 3px;
+}
+
+.double {
+    border-style: double;
+    border-width: 3px;
+}
+
+.groove {
+    border-style: groove;
+    border-width: 3px;
+}
+
+.ridge {
+    border-style: ridge;
+    border-width: 3px;
+}
+
+.inset {
+    border-style: inset;
+    border-width: 3px;
+}
+
+.outset {
+    border-style: outset;
+    border-width: 3px;
+}
+
+.none {
+    border-style: none;
+}
+
+.hidden {
+    border-style: hidden;
+    border-width: 3px;
+}
+
+.mixed {
+    border-style: dotted dashed solid double;
+    border-width: 3px;
+}
+
+.fivepxwidth {
+    border-width: 5px;
+}
+
+.mediumwidth {
+    border-width: medium;
+}
+
+.twopxwidth {
+    border-width: 2px;
+}
+
+.thickwidth {
+    border-width: thick;
+}
+
+.red {
+    border-color: red;
+}
+
+.green {
+    border-color: green;
+}
+
+.blue {
+    border-color: blue;
+}
+
+.rounded {
+    border-radius: 5px;
+}
+
+.rounder {
+    border-radius: 10px;
+}
+
+.roundest {
+    border-radius: 15px;
+}
+
+.shorthand1 {
+    border: 5px solid red;
+}
+
+.shorthand2 {
+    border-left: 5px solid red;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+}
+
+.shorthand3 {
+    border-bottom: 5px solid red;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}

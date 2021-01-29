@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Borders Cheatsheet</title>
+    <link href="./style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
     <h1>CSS Border Properties</h1>
@@ -13,69 +14,70 @@
             <thead>
                 <tr>
                     <th>Style</th>
-                    <th>CSS Property</th>
+                    <th>CSS Code</th>
                     <th>Example</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td>Dotted</td>
-                    <td>border-style: dotted;</td>
-                    <td>A dotted border</td>
+                    <td class="code">border-style: dotted;</td>
+                    <td class="dotted">A dotted border</td>
                 </tr>
                 <tr>
                     <td>Dashed</td>
-                    <td>border-style: dashed;</td>
-                    <td>A dashed border</td>
+                    <td class="code">border-style: dashed;</td>
+                    <td class="dashed">A dashed border</td>
                 </tr>
                 <tr>
                     <td>Solid</td>
-                    <td>border-style: solid;</td>
-                    <td>A solid border</td>
+                    <td class="code">border-style: solid;</td>
+                    <td class="solid">A solid border</td>
                 </tr>
                 <tr>
                     <td>Double</td>
-                    <td>border-style: double;</td>
-                    <td>A double border</td>
+                    <td class="code">border-style: double;</td>
+                    <td class="double">A double border</td>
                 </tr>
                 <tr>
                     <td>Groove</td>
-                    <td>border-style: groove;</td>
-                    <td>A groove border</td>
+                    <td class="code">border-style: groove;</td>
+                    <td class="groove">A groove border</td>
                 </tr>
                 <tr>
                     <td>Ridge</td>
-                    <td>border-style: ridge;</td>
-                    <td>A ridge border</td>
+                    <td class="code">border-style: ridge;</td>
+                    <td class="ridge">A ridge border</td>
                 </tr>
                 <tr>
                     <td>Inset</td>
-                    <td>border-style: inset;</td>
-                    <td>A inset border</td>
+                    <td class="code">border-style: inset;</td>
+                    <td class="inset">An inset border</td>
                 </tr>
                 <tr>
                     <td>Outset</td>
-                    <td>border-style: outset;</td>
-                    <td>A outset border</td>
+                    <td class="code">border-style: outset;</td>
+                    <td class="outset">An outset border</td>
                 </tr>
                 <tr>
                     <td>None</td>
-                    <td>border-style: none;</td>
-                    <td>A none border</td>
+                    <td class="code">border-style: none;</td>
+                    <td class="none">No border</td>
                 </tr>
                 <tr>
                     <td>Hidden</td>
-                    <td>border-style: hidden;</td>
-                    <td>A hidden border</td>
+                    <td class="code">border-style: hidden;</td>
+                    <td class="hidden">A hidden border</td>
                 </tr>
                 <tr>
                     <td>Mixed</td>
-                    <td>border-style: dotted dashed solid double;</td>
-                    <td>A mixed border</td>
+                    <td class="code">border-style: dotted dashed solid double;</td>
+                    <td class="mixed">A mixed border</td>
                 </tr>
             </tbody>
         </table>
     </section>
+    <hr>
 
     <section>
         <h2>Border Width</h2>
@@ -89,24 +91,25 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>border-style: solid;<br>border-width: 5px;</td>
-                    <td>5px border-width</td>
+                    <td class="code">border-style: solid;<br>border-width: 5px;</td>
+                    <td class="solid fivepxwidth">5px border-width</td>
                 </tr>
                 <tr>
-                    <td>border-style: solid;<br>border-width: medium;</td>
-                    <td>medium border-width</td>
+                    <td class="code">border-style: solid;<br>border-width: medium;</td>
+                    <td class="solid mediumwidth">medium border-width</td>
                 </tr>
                 <tr>
-                    <td>border-style: dotted;<br>border-width: 2px;</td>
-                    <td>2px border-width</td>
+                    <td class="code">border-style: dotted;<br>border-width: 2px;</td>
+                    <td class="dotted twopxwidth">2px border-width</td>
                 </tr>
                 <tr>
-                    <td>border-style: dotted;<br>border-width: thick;</td>
-                    <td>thick border-width</td>
+                    <td class="code">border-style: dotted;<br>border-width: thick;</td>
+                    <td class="dotted thickwidth">thick border-width</td>
                 </tr>
             </tbody>
         </table>
     </section>
+    <hr>
 
     <section>
         <h2>Border Color</h2>
@@ -127,25 +130,27 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>border-style: solid;<br>border-color: red;</td>
-                    <td>Red border</td>
+                    <td class="code">border-style: solid;<br>border-color: red;</td>
+                    <td class="solid red">Red border</td>
                 </tr>
                 <tr>
-                    <td>border-style: solid;<br>border-color: green;</td>
-                    <td>Green border</td>
+                    <td class="code">border-style: solid;<br>border-color: green;</td>
+                    <td class="solid green">Green border</td>
                 </tr>
                 <tr>
-                    <td>border-style: dotted;<br>border-color: blue;</td>
-                    <td>Blue border</td>
+                    <td class="code">border-style: dotted;<br>border-color: blue;</td>
+                    <td class="dotted blue">Blue border</td>
                 </tr>
             </tbody>
         </table>
     </section>
+    <hr>
 
     <section>
         <h2>Border Sides</h2>
         <p>There are also properties for specifying each of the borders (top, right, bottom, and left)</p>
     </section>
+    <hr>
 
     <section>
         <h2>Rounded Borders</h2>
@@ -159,24 +164,25 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>border-style: solid;</td>
-                    <td>Normal border</td>
+                    <td class="code">border-style: solid;</td>
+                    <td class="solid">Normal border</td>
                 </tr>
                 <tr>
-                    <td>border-style: solid;<br>border-radius: 5px;</td>
-                    <td>Rounded Border</td>
+                    <td class="code">border-style: solid;<br>border-radius: 5px;</td>
+                    <td class="solid rounded">Rounded Border</td>
                 </tr>
                 <tr>
-                    <td>border-style: solid;<br>border-radius: 10px;</td>
-                    <td>Rounder Border</td>
+                    <td class="code">border-style: solid;<br>border-radius: 10px;</td>
+                    <td class="solid rounder">Rounder Border</td>
                 </tr>
                 <tr>
-                    <td>border-style: solid;<br>border-radius: 15px;</td>
-                    <td>Roundest Border</td>
+                    <td class="code">border-style: solid;<br>border-radius: 15px;</td>
+                    <td class="solid roundest">Roundest Border</td>
                 </tr>
             </tbody>
         </table>
     </section>
+    <hr>
 
     <section>
         <h2>Border Shorthand</h2>
@@ -195,16 +201,16 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>border: 6px solid red</td>
-                    <td>Some text</td>
+                    <td class="code">border: 5px solid red</td>
+                    <td class="shorthand1">Some text</td>
                 </tr>
                 <tr>
-                    <td>border-left: 6px solid red</td>
-                    <td>Some text</td>
+                    <td class="code">border-left: 5px solid red</td>
+                    <td class="shorthand2">Some text</td>
                 </tr>
                 <tr>
-                    <td>border-bottom: 6px solid red</td>
-                    <td>Some text</td>
+                    <td class="code">border-bottom: 5px solid red</td>
+                    <td class="shorthand3">Some text</td>
                 </tr>
             </tbody>
         </table>
